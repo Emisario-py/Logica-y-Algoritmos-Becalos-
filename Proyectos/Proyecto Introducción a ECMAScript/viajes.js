@@ -6,7 +6,7 @@ const destinos = [];
 // Función para registrar un destino de viaje
 export function registrarDestino(destino, fecha, transporte) {
     // TODO: Crear un objeto con los datos del destino
-    const nuevoViaje = {
+    let nuevoViaje = {
         destino: destino,
         fecha: fecha,
         transporte: transporte,

@@ -5,5 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "node app.js"
+  },
+  "dependencies": {
+    "introduccion-a-ecmascript": "file:"
   }
 }

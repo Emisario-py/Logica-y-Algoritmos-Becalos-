@@ -43,10 +43,10 @@ function calcularCosto(destino, transporte) {
 export function mostrarItinerario() {
     // TODO: Recorrer el arreglo de destinos y mostrar la información de cada uno
     destinos.forEach((viaje) => {
-        console.log("Destino: " + viaje.destino);
-        console.log("Fecha: " + viaje.fecha);
-        console.log("Transporte: " + viaje.transporte);
-        console.log("Costo: $" + viaje.costo);
+        console.log(`Destino: ${viaje.destino}`);
+        console.log(`Fecha: ${viaje.fecha}`);
+        console.log(`Transporte: ${viaje.transporte}`);
+        console.log(`Costo: $${viaje.costo}`);
         console.log("---------------------------");
     })
 }

@@ -1,0 +1,14 @@
+{
+  "name": "node-archivos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node crearArchivo.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "node-archivos": "file:"
+  }
+}
